@@ -1,6 +1,7 @@
 import React from 'react'
 import { Stack } from '@mui/material'
 import Input_comp from '../../components/home/Input_comp'
+import Post from '../../components/home/Post'
 const Home = () => {
   return (
     <>
@@ -9,12 +10,9 @@ const Home = () => {
     justifyContent={'center'}
     alignItems={'center'}
     gap={2}
+    mt={'10px'}
     >
-       <p>Post</p>
-       <p>Post</p>
-       <p>Post</p>
-       <p>Post</p>
-       <p>Post</p>
+       <Post/>
     </Stack>
     </>
   )
