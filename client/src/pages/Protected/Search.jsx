@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import SearchInput from "../../components/Search/SearchInput";
+import Profilebar from "../../components/Search/Profilebar";
 
 const Search = () => {
-  return (
-    <div>
-      This is search page
-    </div>
-  )
-}
+  return <>
+    <SearchInput/>
+    <Profilebar/>
+  </>;
+};
 
-export default Search
+export default Search;

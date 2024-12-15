@@ -26,6 +26,7 @@ const PostTwo = () => {
          <img src="error_page_background.webp" alt="Error" 
          width={'200px'}
          height={'200px'}
+         loading='lazy'
          />
          </Stack>
          <Stack flexDirection={'row'}

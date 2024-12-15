@@ -13,6 +13,10 @@ const Home = () => {
     mt={'10px'}
     >
        <Post/>
+       <Post/>
+       <Post/>
+       <Post/>
+       <Post/>
     </Stack>
     </>
   )
