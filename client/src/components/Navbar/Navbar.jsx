@@ -24,7 +24,7 @@ const Navbar = () => {
       <Link to='/search'><IoSearch size={25} cursor={'pointer'} color='black'/></Link>
       <MdEditSquare size={25} cursor={'pointer'}/>
       <Link to='/notification'><IoMdNotifications size={25} cursor={'pointer'} color='black'/></Link>
-      <Link to='/user'><CgProfile size={25} cursor={'pointer'} color='black'/></Link>
+      <Link to='/profile'><CgProfile size={25} cursor={'pointer'} color='black'/></Link>
     </Stack>
   )
 }
