@@ -23,7 +23,7 @@ const PostTwo = () => {
               I am student of Btech IT.
            </Typography>
          </Stack>
-         <img src="error_page_background.webp" alt="Error" 
+         <img src="/public/register_side.png" alt="Error" 
          width={'200px'}
          height={'200px'}
          loading='lazy'

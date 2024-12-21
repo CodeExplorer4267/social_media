@@ -1,7 +1,7 @@
-import React from 'react'
 import { Stack } from '@mui/material'
+import React from 'react'
 import Post from '../../../components/home/Post'
-const Save = () => {
+const UserPost = () => {
   return (
     <>
     <Stack flexDirection={'column'}
@@ -21,4 +21,4 @@ const Save = () => {
   )
 }
 
-export default Save
+export default UserPost

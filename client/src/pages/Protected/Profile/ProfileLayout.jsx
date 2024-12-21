@@ -1,7 +1,7 @@
 import { Avatar, Stack, Typography,Button } from '@mui/material'
 import React from 'react'
 import { FaBiohazard } from "react-icons/fa";
-
+import { Link, Outlet } from 'react-router-dom';
 const ProfileLayout = () => {
   return (
     <>
@@ -12,11 +12,11 @@ const ProfileLayout = () => {
       margin:'auto',
       width:'40%',
       border:'1px solid black',
-      height:'600px',
+      height:'500px',
     }}
     >
       <Stack sx={{
-        background:'url("error_page_background.webp")',
+        background:'url("register_side.png")',
         height:'100px',
         width:'100%',
         backgroundSize:'cover',
@@ -76,12 +76,13 @@ const ProfileLayout = () => {
       margin={'15px auto'}
       width={'100%'}
       >
-        <Typography>Posts</Typography>
-        <Typography>Replies</Typography>
-        <Typography>Reposts</Typography>
-        <Typography>Saves</Typography>
+        <Link to={'/profile/posts/1'} className='link'><Typography>Posts</Typography></Link>
+        <Link to={'/profile/replies/1'} className='link'><Typography>Replies</Typography></Link>
+        <Link to={'/profile/reposts/1'} className='link'><Typography>Reposts</Typography></Link>
+        <Link to={'/profile/saves/1'} className='link'><Typography>Saves</Typography></Link>
       </Stack>
     </Stack>
+    <Outlet/>
     </>
   )
 }
